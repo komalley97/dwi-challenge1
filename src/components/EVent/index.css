@@ -1,0 +1,66 @@
+.Event-background{
+    border-radius: 8px;
+   width: inherit;
+    height:300px;    
+}
+
+.Event{
+    position: relative;
+    left: 1vw;
+
+    width:inherit;
+    height:inherit;
+
+    background: 
+    
+    /*-webkit-radial-gradient(0% 100%, rgba(255, 255, 255, 0.324) 20%, rgba(0, 0, 0, 0.262) 180%),
+    -webkit-radial-gradient(50% 50%,rgba(61, 181, 255, 0.767) 0%, rgba(61, 181, 255, 0.767) 100%),*/
+    -webkit-radial-gradient(0% 100%, rgba(247,244,243, 0.9) 50%, rgba(247,244,243, 0.9) 50%),
+   /* -webkit-radial-gradient(50% 50%,rgba(61, 181, 255, 0.767) 0%, rgba(61, 181, 255, 0.767) 100%),*/
+    url("../background.jpg");
+
+    border: 0 solid #000000;
+    box-shadow: 6px 6px 5px 0 rgba(0,0,0,0.30);
+
+    border-radius: 8px;
+
+    margin: 15px;
+    padding: 25px;
+    font-size: calc(5px + .5vw);
+    letter-spacing: -0.41px;
+}
+
+.Event img{
+    float: left;
+    margin-right: 5%;
+    width: calc(25px + 1.5vw);
+    height:calc(25px + 1.5vw);
+}
+.Event-title{
+    position:relative;
+    min-height:60px;
+    font-size: 1.15em;
+    padding-left: 10%;
+    margin-left: 10%;
+    margin: 0px;
+    font-weight: normal;
+}
+.Event-time{
+    position:absolute;
+    bottom: 0px;
+    right: 12.5%;
+    margin-right: -10%;
+    transform: translate(0%, -50%);
+    text-align: center;
+    
+    font-size: .72em;
+    opacity: .5;
+}/*
+.example-enter {
+    opacity: 0.01;
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+  }*/

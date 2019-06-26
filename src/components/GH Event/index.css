@@ -1,0 +1,12 @@
+.GithubEvent-message{
+    position: relative;
+    padding-top: 6px;
+    padding-left:10%;
+    font-size: 1.05em;
+    margin: 6px;
+   /* margin-left: 1vw;*/
+    margin-top: 6px;
+    font-family: 'AvenirNext-regular';
+    font-weight: lighter;
+    border-top: 1px solid #D9D9D9;
+}
